@@ -12,7 +12,7 @@ Pour que ce plugin fonctionne avec toutes ces fonctionnalités:
 
 Voici la liste des features du fonctionnalités:
 
-- Full vanish (équipement + item dans les mains) -> merci à Matze
+- Full vanish (équipement + item dans les mains) -> merci à [Matze](https://github.com/Matze997)
 - Anti PickUp Item
 - Random TP aux joueurs
 - Freeze
