@@ -5,6 +5,7 @@ Plugin de modération pour PMMP (PocketMine)
 
 ## DEPENDANCES !
 Pour que ce plugin fonctionne avec toutes ces fonctionnalités:
+
 [InvSee](https://github.com/BlockHorizons/InvSee)
 
 ## Utilisation
