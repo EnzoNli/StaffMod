@@ -27,6 +27,7 @@ Permission: staffmod.perm
 ## Fonctionnalités futures
 - Ajout de traductions
 - Sauvegarde des inventaires lors de l'entrée et de la sortie du mode
+- Ajout d'un config.yml
 
 ### PS
 License: GNU GENERAL PUBLIC LICENSE
