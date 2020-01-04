@@ -21,6 +21,7 @@ Voici la liste des features du fonctionnalités:
 
 ## Commands & permission
 Usage: /staffmod ou /sm
+
 Permission: staffmod.perm
 
 ## Fonctionnalités futures
