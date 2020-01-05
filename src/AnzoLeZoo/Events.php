@@ -70,15 +70,14 @@ class Events implements Listener{
 
 
         if($item->getCustomName() == TF::BOLD . TF::GOLD . "TP Joueur Random"){
-        	$allonlinePlayer = [];
-        	foreach ($this->plugin->getServer()->getOnlinePlayers() as $onlinePlayer){
-        		array_push($allonlinePlayer, $onlinePlayer);
-        	}
+        	$allonlinePlayer = $this->plugin->getServer()->getOnlinePlayers();
 
-        	$playerTP = array_rand($allonlinePlayer);
-        	$pos = new Position($allonlinePlayer[$playerTP]->getX(), $allonlinePlayer[$playerTP]->getY(), $allonlinePlayer[$playerTP]->getZ());
-        	$player->teleport($pos);
-        	$player->sendMessage(TF::GOLD . "Teleportation vers " . TF::RED . TF::BOLD . $allonlinePlayer[$playerTP]->getName());
+            	$playerTP = array_rand($allonlinePlayer);
+            	$x = $allonlinePlayer[$playerTP]->getX();
+            	$y = $allonlinePlayer[$playerTP]->getY();
+            	$z = $allonlinePlayer[$playerTP]->getZ();
+            	$player->teleport($allonlinePlayer[$playerTP]->getLevel()->getSafeSpawn(new Vector3($x, $y, $z)));
+            	$player->sendMessage(TF::GOLD . "Teleportation vers " . TF::RED . TF::BOLD . $allonlinePlayer[$playerTP]->getName());
         }
 
 
