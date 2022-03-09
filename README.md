@@ -1,10 +1,10 @@
 ![StaffMod banner!](https://github.com/AnzoLeZoo/StaffMod/blob/master/ressources/staffmod.PNG)
 ---
 # StaffMod
-Plugin de modération pour PMMP (PocketMine)
+(Surement obsolète) Plugin de modération pour PMMP (PocketMine)
 
 ## DEPENDANCES !
-Pour que ce plugin fonctionne avec toutes ces fonctionnalités:
+Pour que ce plugin fonctionne avec toutes ses fonctionnalités:
 
 [InvSee](https://github.com/BlockHorizons/InvSee)
 
