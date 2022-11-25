@@ -1,7 +1,7 @@
 ![StaffMod banner!](https://github.com/AnzoLeZoo/StaffMod/blob/master/ressources/staffmod.PNG)
 ---
 # StaffMod
-(Surement obsolète) Plugin de modération pour PMMP (PocketMine)
+Plugin de modération pour PMMP (PocketMine)
 
 ## DEPENDANCES !
 Pour que ce plugin fonctionne avec toutes ses fonctionnalités:
